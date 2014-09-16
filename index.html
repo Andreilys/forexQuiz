@@ -1,0 +1,37 @@
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="reset.css">
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="app.js"></script>
+	<link type="text/css" rel="stylesheet" href="main.css"/>
+	
+	
+	<title>Forex Quiz</title>
+</head>
+<body>
+	<div class="wrapper">
+	<header>Forex Quiz</header>
+		<div id = "theGame">
+			<h2 id = "question">A _______ is used by most forex brokers to close out an open position at the end of the business day, and reopen an identical position as of the next day.</h2>
+			<form id = "possibleAnswers">
+				<ul>
+					<li id = "choice1"><input type="radio" name="choice" value="carry trade">carry trade</li>
+					<li id = "choice2"><input type="radio" name="choice" value="rollover swap">rollover swap</li>
+					<li id = "choice3"><input type="radio" name="choice" value="spot trade">spot trade</li>
+					<li id = "choice4"><input type="radio" name="choice" value="margin calculation">margin calculation</li>
+				</ul>
+				<h3><span id = "finalScore">5</span> out of 5!</h3>
+			</form>
+			
+			<button type="submit" id="submitButton">submit answer</button>
+		</div>
+	</div>
+	
+	<footer>
+		<button type="submit" id="newGame">New Game</button>
+		<div id = "footright">Question <span id = "count">1</span> out of 5</div>
+	</footer>			
+</body>
+</html>
