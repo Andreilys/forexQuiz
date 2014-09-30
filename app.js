@@ -71,7 +71,7 @@ var gamePlay = function() {
 				else if (userChoice !== allQuestions[currentTurn].correctAnswer) {
 				$('.wrapper').addClass('incorrect');
 				$('.wrapper').removeClass('correct');
-				userScore += 1;
+			
 				console.log(userScore);
 				}
 			currentTurn += 1;	
